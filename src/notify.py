@@ -5,9 +5,21 @@ the caller's discretion."""
 from __future__ import annotations
 
 import sys
+from email.header import Header
 from typing import Iterable
 
 import requests
+
+
+def _encode_header(value: str) -> str:
+    """HTTP header values must be latin-1 (Python's http.client enforces this), so
+    a title containing an em dash or any other non-latin-1 character would raise
+    UnicodeEncodeError mid-request and abort the whole poll cycle. ntfy decodes
+    RFC 2047 encoded-words (=?UTF-8?...?=) in its Title/Tags headers, so emit that
+    form for non-ASCII values and leave plain ASCII untouched."""
+    if value.isascii():
+        return value
+    return Header(value, "utf-8").encode()
 
 # ntfy priority names, lowest -> highest.
 PRIORITY_MIN = "min"
@@ -34,9 +46,9 @@ def push(
     url = f"{server.rstrip('/')}/{topic}"
     headers: dict[str, str] = {"Priority": priority}
     if title:
-        headers["Title"] = title
+        headers["Title"] = _encode_header(title)
     if tags:
-        headers["Tags"] = ",".join(tags)
+        headers["Tags"] = _encode_header(",".join(tags))
     if click:
         headers["Click"] = click
     try:
@@ -45,7 +57,7 @@ def push(
             print(f"[notify] ntfy returned HTTP {resp.status_code}: {resp.text}", file=sys.stderr)
             return False
         return True
-    except requests.RequestException as exc:
+    except (requests.RequestException, UnicodeError) as exc:
         print(f"[notify] ntfy push failed: {exc}", file=sys.stderr)
         return False
 
