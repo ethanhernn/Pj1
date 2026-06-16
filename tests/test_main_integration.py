@@ -44,6 +44,8 @@ def test_full_cycle_produces_sheet(monkeypatch, tmp_path, cfg, prev_xml, curr_xm
     monkeypatch.setattr(main, "load_seen", lambda *a, **k: set())
     monkeypatch.setattr(main, "save_prev_holdings", lambda *a, **k: None)
     monkeypatch.setattr(main, "OUTPUT_DIR", tmp_path)
+    monkeypatch.setattr(main, "DIFF_HISTORY_PATH", tmp_path / "diff_history.json")
+    monkeypatch.setattr(main, "DASHBOARD_PATH", tmp_path / "docs" / "index.html")
     monkeypatch.setattr(marketdata, "YFinanceProvider", FakeProvider)
     # add ticker overrides so names resolve
     cfg.cusip_overrides = {
@@ -62,3 +64,8 @@ def test_full_cycle_produces_sheet(monkeypatch, tmp_path, cfg, prev_xml, curr_xm
     assert "13F TRADE SHEET" in text
     assert "SEMICONDUCTOR" not in text.upper()  # put never sized
     assert "NO auto-execution" in text
+
+    # v0.4: history + dashboard produced by the same cycle.
+    dashboard = (tmp_path / "docs" / "index.html").read_text()
+    assert "<!DOCTYPE html>" in dashboard
+    assert "Q1 2026" in dashboard

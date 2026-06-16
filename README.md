@@ -21,6 +21,7 @@ recommendations. See [Guardrails](#guardrails).
 | 2a — Parse | `src/parser.py` | Locate the 13F information-table XML, normalize `<infoTable>` rows into holdings. |
 | 2b — Diff | `src/differ.py` | NEW / INCREASED / DECREASED / EXITED buckets with fund weights. Options excluded from actionable buckets. |
 | 3 — Size | `src/sizer.py` | Apply `config.yaml` ruleset → sized trade sheet (price/volume/earnings via yfinance). |
+| 4 — Dashboard | `src/dashboard.py` | Append each diff to `state/diff_history.json`, render a static `docs/index.html`. |
 | — | `src/main.py` | Orchestrator: one invocation = one poll cycle. |
 
 ## Setup
@@ -55,9 +56,14 @@ filings notify.
 
 ## GitHub Actions (free-tier cron)
 
-`.github/workflows/poll.yml` runs `*/15 13-21 * * 1-5` (UTC market hours) and
-commits updated state back to the branch. Set these repo **secrets** (Settings →
-Secrets → Actions):
+`.github/workflows/poll.yml` runs two schedules and commits updated state back to
+the branch:
+
+- **Normal:** `*/15 13-21 * * 1-5` — every 15 min, UTC market hours, weekdays.
+- **Deadline weeks:** `*/5 13-21 10-20 2,5,8,11 *` — every 5 min during the
+  mid-Feb/May/Aug/Nov 13F filing windows (kept in sync with `src/deadline.py`).
+
+Set these repo **secrets** (Settings → Secrets → Actions):
 
 - `NTFY_TOPIC` — your private ntfy topic.
 - `NTFY_SERVER` *(optional)* — defaults to `https://ntfy.sh`.
@@ -80,9 +86,19 @@ Trigger manually from the Actions tab (`workflow_dispatch`) with the `dry_run` /
 
 - `state/seen_filings.json` — accession numbers already processed.
 - `state/holdings_prev.json` — parsed holdings from the last 13F (the diff baseline).
+- `state/diff_history.json` — structured per-filing diff history (feeds the dashboard).
 - `output/` — full markdown trade sheets, one per processed 13F.
+- `docs/index.html` — generated HTML dashboard.
 
 No database. State is committed by the Action.
+
+## Dashboard
+
+Each processed 13F regenerates `docs/index.html`: a self-contained page (no
+external assets, dark-mode aware) listing every filing newest-first with bucket
+badges, a holdings-change table, the option-book note, and the full trade sheet
+embedded inline. To publish it, enable **GitHub Pages** (Settings → Pages →
+Deploy from branch → `/docs`).
 
 ## Guardrails
 
@@ -112,4 +128,4 @@ with EDGAR and yfinance stubbed — no network required.
 - ✅ v0.1 — Layer 1 poller + ntfy + Actions cron
 - ✅ v0.2 — parser + differ (fixture-tested)
 - ✅ v0.3 — sizer + trade sheet output
-- ⬜ v0.4 (optional) — deadline-week fast polling, HTML dashboard
+- ✅ v0.4 — deadline-week fast polling + HTML dashboard

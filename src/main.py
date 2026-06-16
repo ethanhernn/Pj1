@@ -16,6 +16,8 @@ from pathlib import Path
 
 from . import notify
 from .config import Config, REPO_ROOT, load_config
+from .dashboard import append_history, build_record, write_dashboard
+from .deadline import is_deadline_window
 from .differ import diff_holdings
 from .edgar import EdgarClient, EdgarError
 from .parser import (
@@ -43,7 +45,9 @@ from .validate import ValidationError, validate_holdings
 STATE_DIR = REPO_ROOT / "state"
 SEEN_PATH = STATE_DIR / "seen_filings.json"
 HOLDINGS_PREV_PATH = STATE_DIR / "holdings_prev.json"
+DIFF_HISTORY_PATH = STATE_DIR / "diff_history.json"
 OUTPUT_DIR = REPO_ROOT / "output"
+DASHBOARD_PATH = REPO_ROOT / "docs" / "index.html"
 
 THIRTEEN_F_FORMS = {"13F-HR", "13F-HR/A"}
 THIRTEEN_D_G_FORMS = {"SC 13D", "SC 13D/A", "SC 13G", "SC 13G/A"}
@@ -146,6 +150,12 @@ def process_13f(cfg: Config, client: EdgarClient, filing: Filing, dry_run: bool)
             click=filing.index_url,
         )
 
+    # Append to the structured diff history and regenerate the HTML dashboard.
+    record = build_record(diff, filing, quarter, rendered)
+    history = append_history(record, DIFF_HISTORY_PATH)
+    write_dashboard(history, DASHBOARD_PATH)
+    print(f"[main] updated dashboard -> {DASHBOARD_PATH}")
+
     # Advance the prior-quarter baseline only after a clean run.
     save_prev_holdings(holdings)
 
@@ -184,6 +194,8 @@ def _error(cfg: Config, context: str, detail: str, dry_run: bool) -> None:
 
 def run_cycle(cfg: Config, dry_run: bool = False, seed_only: bool = False) -> int:
     """Run one poll cycle. Returns the number of new filings handled."""
+    if is_deadline_window():
+        print("[main] 13F deadline window — fast-poll cadence active")
     client = EdgarClient(cfg.edgar.user_agent, cfg.edgar.poll_sleep_seconds)
 
     try:

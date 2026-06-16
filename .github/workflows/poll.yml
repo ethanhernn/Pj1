@@ -4,7 +4,11 @@ name: edgar-poll
 # 13:00-21:00 UTC ≈ 09:00-17:00 ET (covers the regular session + filing release window).
 on:
   schedule:
+    # Normal cadence: every 15 minutes during US market hours on weekdays.
     - cron: "*/15 13-21 * * 1-5"
+    # Deadline weeks (mid Feb/May/Aug/Nov, ~45 days after quarter end): every
+    # 5 minutes, days 10-20. Kept in sync with src/deadline.py.
+    - cron: "*/5 13-21 10-20 2,5,8,11 *"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -54,7 +58,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add state/ output/
+          git add state/ output/ docs/
           if git diff --cached --quiet; then
             echo "No state changes to commit."
           else
