@@ -1,0 +1,37 @@
+# EDGAR Filing Monitor — configuration
+# All tunable values live here. No secrets in this file: the ntfy topic can be
+# overridden at runtime via the NTFY_TOPIC env var (set as a GitHub Actions secret).
+
+edgar:
+  # CIK for Situational Awareness LP (Leopold Aschenbrenner). Zero-padded to 10
+  # digits is required in the submissions URL; the loader pads automatically.
+  cik: "0002045724"
+  # SEC requires a descriptive User-Agent of the form "<name> <email>" on every
+  # request or it returns 403. Override the email via EDGAR_UA env var if desired.
+  user_agent: "EDGAR Filing Monitor ethannhernn@icloud.com"
+  # Politeness sleep between batched HTTP requests. SEC limit is 10 req/s.
+  poll_sleep_seconds: 0.2
+
+ntfy:
+  server: "https://ntfy.sh"
+  # Public default; override with the NTFY_TOPIC env var / GitHub Actions secret
+  # for a private topic.
+  topic: "edgar-saw-monitor"
+
+account:
+  buying_power: 10000        # update to actual Trade The Pool account size
+  max_position_pct: 15       # per name
+  max_total_exposure_pct: 70
+  max_names: 6
+  stop_loss_pct: 7           # per position hard stop
+
+rules:
+  min_avg_daily_volume: 500000      # TTP overnight-hold requirement
+  longs_only: true
+  source_buckets: ["NEW", "INCREASED"]   # ignore trims/exits for entries
+  rank_by: "weight"                  # take top N by fund weight
+  increase_threshold_pct: 5          # share-count change to count as INCREASED/DECREASED
+
+# CUSIP -> ticker manual overrides for names the SEC company_tickers map misses.
+# Format: "CUSIP9": "TICKER"
+cusip_overrides: {}
