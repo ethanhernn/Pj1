@@ -13,6 +13,19 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CONFIG_PATH = REPO_ROOT / "config.yaml"
 
 
+def _env_or(key: str, default: str) -> str:
+    """Return env var `key` if set to a non-empty value, else `default`.
+
+    GitHub Actions injects *unset* secrets as empty strings, so the env var is
+    present-but-empty rather than absent — meaning os.environ.get(key, default)
+    returns "" instead of the default. Treat empty/whitespace as unset.
+    """
+    value = os.environ.get(key)
+    if value is None or not value.strip():
+        return default
+    return value
+
+
 @dataclass
 class EdgarConfig:
     cik: str
@@ -68,7 +81,7 @@ def load_config(path: str | Path = DEFAULT_CONFIG_PATH) -> Config:
     raw: dict[str, Any] = yaml.safe_load(Path(path).read_text())
 
     edgar_raw = raw["edgar"]
-    ua = os.environ.get("EDGAR_UA", edgar_raw["user_agent"])
+    ua = _env_or("EDGAR_UA", edgar_raw["user_agent"])
     edgar = EdgarConfig(
         cik=str(edgar_raw["cik"]),
         user_agent=ua,
@@ -77,8 +90,8 @@ def load_config(path: str | Path = DEFAULT_CONFIG_PATH) -> Config:
 
     ntfy_raw = raw["ntfy"]
     ntfy = NtfyConfig(
-        server=os.environ.get("NTFY_SERVER", ntfy_raw["server"]).rstrip("/"),
-        topic=os.environ.get("NTFY_TOPIC", ntfy_raw["topic"]),
+        server=_env_or("NTFY_SERVER", ntfy_raw["server"]).rstrip("/"),
+        topic=_env_or("NTFY_TOPIC", ntfy_raw["topic"]),
     )
 
     acct_raw = raw["account"]
