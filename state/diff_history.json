@@ -1180,5 +1180,307 @@
       }
     ],
     "trade_sheet_text": "# 13F TRADE SHEET \u2014 Q1 2026 (filed 2026-05-18)\n\nAccount BP: $10,000 | Max exposure: $7,000 (70%) | Max names: 6\n\n_No actionable entries passed the rules this quarter._\n\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\n\nDiff summary: 10 NEW, 9 INCREASED, 3 DECREASED, 8 EXITED, put book 11 names / $8,459,056,999 notional, call book 5 names / $1,361,829,026 notional (NOT actionable)\n\n---\n\u26a0\ufe0f Sheet is mechanical output of config rules. Entries are estimates. Stagger entries over 1-2 weeks, use limit orders, do not buy day-of-filing spikes. NO auto-execution \u2014 review and trade manually."
+  },
+  {
+    "accession": "0000935836-26-000418",
+    "filing_date": "2026-08-14",
+    "quarter_label": "Q2 2026",
+    "processed_at": "2026-08-14T20:37:38+00:00",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000418/0000935836-26-000418-index.htm",
+    "counts": {
+      "NEW": 5,
+      "INCREASED": 9,
+      "DECREASED": 2,
+      "EXITED": 8,
+      "UNCHANGED": 7
+    },
+    "options": {
+      "put_count": 1,
+      "put_notional": 5245000,
+      "call_count": 2,
+      "call_notional": 68012160
+    },
+    "entries": [
+      {
+        "ticker": null,
+        "issuer": "SANDISK CORP",
+        "cusip": "80004C200",
+        "bucket": "INCREASED",
+        "weight_curr": 28.13,
+        "weight_change": 9.34,
+        "shares_change_pct": 118.9
+      },
+      {
+        "ticker": null,
+        "issuer": "MICRON TECHNOLOGY INC",
+        "cusip": "595112103",
+        "bucket": "INCREASED",
+        "weight_curr": 27.64,
+        "weight_change": 27.48,
+        "shares_change_pct": 27712.4
+      },
+      {
+        "ticker": null,
+        "issuer": "BLOOM ENERGY CORP",
+        "cusip": "093712107",
+        "bucket": "UNCHANGED",
+        "weight_curr": 9.41,
+        "weight_change": -13.38,
+        "shares_change_pct": -3.3
+      },
+      {
+        "ticker": null,
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+        "cusip": "874039100",
+        "bucket": "INCREASED",
+        "weight_curr": 6.27,
+        "weight_change": 6.08,
+        "shares_change_pct": 11713.9
+      },
+      {
+        "ticker": null,
+        "issuer": "NEBIUS GROUP N.V.",
+        "cusip": "N97284108",
+        "bucket": "NEW",
+        "weight_curr": 6.11,
+        "weight_change": 6.11,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "COREWEAVE INC",
+        "cusip": "21873S108",
+        "bucket": "UNCHANGED",
+        "weight_curr": 3.69,
+        "weight_change": -10.73,
+        "shares_change_pct": 4.2
+      },
+      {
+        "ticker": null,
+        "issuer": "CORE SCIENTIFIC INC NEW",
+        "cusip": "21874A106",
+        "bucket": "UNCHANGED",
+        "weight_curr": 3.3,
+        "weight_change": -6.79,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "STMICROELECTRONICS",
+        "cusip": "861012102",
+        "bucket": "NEW",
+        "weight_curr": 2.9,
+        "weight_change": 2.9,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "APPLIED DIGITAL CORP",
+        "cusip": "038169207",
+        "bucket": "INCREASED",
+        "weight_curr": 2.33,
+        "weight_change": -5.97,
+        "shares_change_pct": 14.1
+      },
+      {
+        "ticker": null,
+        "issuer": "RIOT PLATFORMS INC",
+        "cusip": "767292105",
+        "bucket": "INCREASED",
+        "weight_curr": 2.32,
+        "weight_change": -1.37,
+        "shares_change_pct": 48.7
+      },
+      {
+        "ticker": null,
+        "issuer": "SHARONAI HOLDINGS INC",
+        "cusip": "778920306",
+        "bucket": "INCREASED",
+        "weight_curr": 2.27,
+        "weight_change": 1.8,
+        "shares_change_pct": 577.8
+      },
+      {
+        "ticker": null,
+        "issuer": "IREN LIMITED",
+        "cusip": "Q4982L109",
+        "bucket": "DECREASED",
+        "weight_curr": 2.15,
+        "weight_change": -8.25,
+        "shares_change_pct": -19.0
+      },
+      {
+        "ticker": null,
+        "issuer": "CLEANSPARK INC",
+        "cusip": "18452B209",
+        "bucket": "UNCHANGED",
+        "weight_curr": 0.89,
+        "weight_change": -1.82,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "KEEL INFRASTRUCTURE CORP",
+        "cusip": "486917107",
+        "bucket": "NEW",
+        "weight_curr": 0.75,
+        "weight_change": 0.75,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "SOLARIS ENERGY INFRAS INC",
+        "cusip": "83418M103",
+        "bucket": "UNCHANGED",
+        "weight_curr": 0.45,
+        "weight_change": -1.17,
+        "shares_change_pct": 2.2
+      },
+      {
+        "ticker": null,
+        "issuer": "WHITEFIBER INC",
+        "cusip": "G96115103",
+        "bucket": "UNCHANGED",
+        "weight_curr": 0.34,
+        "weight_change": -0.2,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "BITDEER TECHNOLOGIES GROUP",
+        "cusip": "G11448100",
+        "bucket": "UNCHANGED",
+        "weight_curr": 0.27,
+        "weight_change": -0.5,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "T1 ENERGY INC",
+        "cusip": "35834F104",
+        "bucket": "DECREASED",
+        "weight_curr": 0.23,
+        "weight_change": -0.91,
+        "shares_change_pct": -51.0
+      },
+      {
+        "ticker": null,
+        "issuer": "HIVE DIGITAL TECHNOLOGIES LT",
+        "cusip": "433921103",
+        "bucket": "INCREASED",
+        "weight_curr": 0.16,
+        "weight_change": -0.0,
+        "shares_change_pct": 169.3
+      },
+      {
+        "ticker": null,
+        "issuer": "BABCOCK & WILCOX ENTERPRISES",
+        "cusip": "05614L209",
+        "bucket": "INCREASED",
+        "weight_curr": 0.14,
+        "weight_change": -0.37,
+        "shares_change_pct": 49.7
+      },
+      {
+        "ticker": null,
+        "issuer": "PROPETRO HLDG CORP",
+        "cusip": "74347M108",
+        "bucket": "INCREASED",
+        "weight_curr": 0.14,
+        "weight_change": -0.2,
+        "shares_change_pct": 115.4
+      },
+      {
+        "ticker": null,
+        "issuer": "VISHAY INTERTECHNOLOGY INC",
+        "cusip": "928298108",
+        "bucket": "NEW",
+        "weight_curr": 0.1,
+        "weight_change": 0.1,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "CEREBRAS SYSTEMS INC",
+        "cusip": "15675D103",
+        "bucket": "NEW",
+        "weight_curr": 0.01,
+        "weight_change": 0.01,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "cusip": "007903107",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.52,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "ASML HLDG NV N Y REGISTRY",
+        "cusip": "N07059210",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.16,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "BITFARMS LTD",
+        "cusip": "09173B107",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -1.01,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "CORNING INC",
+        "cusip": "219350105",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.02,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "INTEL CORP",
+        "cusip": "458140100",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.23,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "NVIDIA CORPORATION",
+        "cusip": "67066G104",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.01,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "POWER SOLUTIONS INTL INC",
+        "cusip": "73933G202",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.68,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "VANECK ETF TRUST",
+        "cusip": "92189F676",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.27,
+        "shares_change_pct": -100.0
+      }
+    ],
+    "trade_sheet_text": "# 13F TRADE SHEET \u2014 Q2 2026 (filed 2026-08-14)\n\nAccount BP: $10,000 | Max exposure: $7,000 (70%) | Max names: 6\n\n_No actionable entries passed the rules this quarter._\n\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\n\nDiff summary: 5 NEW, 9 INCREASED, 2 DECREASED, 8 EXITED, put book 1 names / $5,245,000 notional, call book 2 names / $68,012,160 notional (NOT actionable)\n\n---\n\u26a0\ufe0f Sheet is mechanical output of config rules. Entries are estimates. Stagger entries over 1-2 weeks, use limit orders, do not buy day-of-filing spikes. NO auto-execution \u2014 review and trade manually."
   }
 ]

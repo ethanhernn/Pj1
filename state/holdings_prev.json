@@ -1,97 +1,57 @@
 [
   {
-    "cusip": "N07059210",
-    "ticker": null,
-    "issuer": "ASML HLDG NV N Y REGISTRY",
-    "value_usd": 494122503,
-    "shares": 374100,
-    "type": "PUT"
-  },
-  {
-    "cusip": "N07059210",
-    "ticker": null,
-    "issuer": "ASML HLDG NV N Y REGISTRY",
-    "value_usd": 6119405,
-    "shares": 4633,
-    "type": "SHARES"
-  },
-  {
-    "cusip": "007903107",
-    "ticker": null,
-    "issuer": "ADVANCED MICRO DEVICES INC",
-    "value_usd": 969160863,
-    "shares": 4764100,
-    "type": "PUT"
-  },
-  {
-    "cusip": "007903107",
-    "ticker": null,
-    "issuer": "ADVANCED MICRO DEVICES INC",
-    "value_usd": 20167643,
-    "shares": 99138,
-    "type": "SHARES"
-  },
-  {
     "cusip": "038169207",
     "ticker": null,
     "issuer": "APPLIED DIGITAL CORP",
-    "value_usd": 319978118,
-    "shares": 13478438,
+    "value_usd": 469022807,
+    "shares": 15384616,
     "type": "SHARES"
   },
   {
     "cusip": "05614L209",
     "ticker": null,
     "issuer": "BABCOCK & WILCOX ENTERPRISES",
-    "value_usd": 19888791,
-    "shares": 1353900,
+    "value_usd": 28587059,
+    "shares": 2027451,
     "type": "SHARES"
   },
   {
     "cusip": "G11448100",
     "ticker": null,
     "issuer": "BITDEER TECHNOLOGIES GROUP",
-    "value_usd": 29751243,
+    "value_usd": 54584072,
     "shares": 3439450,
-    "type": "SHARES"
-  },
-  {
-    "cusip": "09173B107",
-    "ticker": null,
-    "issuer": "BITFARMS LTD",
-    "value_usd": 38757888,
-    "shares": 19875840,
     "type": "SHARES"
   },
   {
     "cusip": "093712107",
     "ticker": null,
     "issuer": "BLOOM ENERGY CORP",
-    "value_usd": 55347665,
-    "shares": 408500,
+    "value_usd": 44133660,
+    "shares": 145800,
     "type": "CALL"
   },
   {
     "cusip": "093712107",
     "ticker": null,
     "issuer": "BLOOM ENERGY CORP",
-    "value_usd": 878707930,
-    "shares": 6485408,
+    "value_usd": 1898778982,
+    "shares": 6272808,
     "type": "SHARES"
   },
   {
-    "cusip": "11135F101",
+    "cusip": "15675D103",
     "ticker": null,
-    "issuer": "BROADCOM INC",
-    "value_usd": 1006247961,
-    "shares": 3251100,
-    "type": "PUT"
+    "issuer": "CEREBRAS SYSTEMS INC",
+    "value_usd": 2210000,
+    "shares": 10000,
+    "type": "SHARES"
   },
   {
     "cusip": "18452B209",
     "ticker": null,
     "issuer": "CLEANSPARK INC",
-    "value_usd": 104469943,
+    "value_usd": 178617822,
     "shares": 12276139,
     "type": "SHARES"
   },
@@ -99,7 +59,7 @@
     "cusip": "21874A106",
     "ticker": null,
     "issuer": "CORE SCIENTIFIC INC NEW",
-    "value_usd": 389086756,
+    "value_usd": 665556824,
     "shares": 26008473,
     "type": "SHARES"
   },
@@ -107,231 +67,143 @@
     "cusip": "21873S108",
     "ticker": null,
     "issuer": "COREWEAVE INC",
-    "value_usd": 140569315,
-    "shares": 1814500,
-    "type": "CALL"
-  },
-  {
-    "cusip": "21873S108",
-    "ticker": null,
-    "issuer": "COREWEAVE INC",
-    "value_usd": 556073385,
-    "shares": 7177919,
+    "value_usd": 744515203,
+    "shares": 7479558,
     "type": "SHARES"
-  },
-  {
-    "cusip": "219350105",
-    "ticker": null,
-    "issuer": "CORNING INC",
-    "value_usd": 718330,
-    "shares": 5283,
-    "type": "SHARES"
-  },
-  {
-    "cusip": "219350105",
-    "ticker": null,
-    "issuer": "CORNING INC",
-    "value_usd": 21020962,
-    "shares": 154600,
-    "type": "PUT"
   },
   {
     "cusip": "433921103",
     "ticker": null,
     "issuer": "HIVE DIGITAL TECHNOLOGIES LT",
-    "value_usd": 6443939,
-    "shares": 3391547,
+    "value_usd": 33246763,
+    "shares": 9133726,
     "type": "SHARES"
   },
   {
     "cusip": "Q4982L109",
     "ticker": null,
     "issuer": "IREN LIMITED",
-    "value_usd": 401036064,
-    "shares": 11698835,
+    "value_usd": 433250547,
+    "shares": 9474099,
     "type": "SHARES"
   },
   {
     "cusip": "456788108",
     "ticker": null,
     "issuer": "INFOSYS LTD",
-    "value_usd": 6755000,
+    "value_usd": 5245000,
     "shares": 500000,
     "type": "PUT"
   },
   {
-    "cusip": "458140100",
+    "cusip": "486917107",
     "ticker": null,
-    "issuer": "INTEL CORP",
-    "value_usd": 8929441,
-    "shares": 202344,
-    "type": "SHARES"
-  },
-  {
-    "cusip": "458140100",
-    "ticker": null,
-    "issuer": "INTEL CORP",
-    "value_usd": 159106302,
-    "shares": 3605400,
-    "type": "PUT"
-  },
-  {
-    "cusip": "595112103",
-    "ticker": null,
-    "issuer": "MICRON TECHNOLOGY INC",
-    "value_usd": 5865578,
-    "shares": 17362,
+    "issuer": "KEEL INFRASTRUCTURE CORP",
+    "value_usd": 151830996,
+    "shares": 26451393,
     "type": "SHARES"
   },
   {
     "cusip": "595112103",
     "ticker": null,
     "issuer": "MICRON TECHNOLOGY INC",
-    "value_usd": 422300000,
-    "shares": 1250000,
-    "type": "CALL"
-  },
-  {
-    "cusip": "595112103",
-    "ticker": null,
-    "issuer": "MICRON TECHNOLOGY INC",
-    "value_usd": 583686168,
-    "shares": 1727700,
-    "type": "PUT"
-  },
-  {
-    "cusip": "67066G104",
-    "ticker": null,
-    "issuer": "NVIDIA CORPORATION",
-    "value_usd": 497912,
-    "shares": 2855,
+    "value_usd": 5573819392,
+    "shares": 4828786,
     "type": "SHARES"
   },
   {
-    "cusip": "67066G104",
+    "cusip": "N97284108",
     "ticker": null,
-    "issuer": "NVIDIA CORPORATION",
-    "value_usd": 1568257120,
-    "shares": 8992300,
-    "type": "PUT"
-  },
-  {
-    "cusip": "68389X105",
-    "ticker": null,
-    "issuer": "ORACLE CORP",
-    "value_usd": 1072873230,
-    "shares": 7293000,
-    "type": "PUT"
-  },
-  {
-    "cusip": "73933G202",
-    "ticker": null,
-    "issuer": "POWER SOLUTIONS INTL INC",
-    "value_usd": 26318424,
-    "shares": 432300,
+    "issuer": "NEBIUS GROUP N.V.",
+    "value_usd": 1232894684,
+    "shares": 4464260,
     "type": "SHARES"
   },
   {
     "cusip": "74347M108",
     "ticker": null,
     "issuer": "PROPETRO HLDG CORP",
-    "value_usd": 13117423,
-    "shares": 910300,
+    "value_usd": 28111878,
+    "shares": 1960382,
     "type": "SHARES"
   },
   {
     "cusip": "767292105",
     "ticker": null,
     "issuer": "RIOT PLATFORMS INC",
-    "value_usd": 142166413,
-    "shares": 11502137,
+    "value_usd": 468198000,
+    "shares": 17100000,
     "type": "SHARES"
   },
   {
     "cusip": "80004C200",
     "ticker": null,
     "issuer": "SANDISK CORP",
-    "value_usd": 388764546,
-    "shares": 611900,
-    "type": "CALL"
-  },
-  {
-    "cusip": "80004C200",
-    "ticker": null,
-    "issuer": "SANDISK CORP",
-    "value_usd": 724363205,
-    "shares": 1140119,
+    "value_usd": 5673738513,
+    "shares": 2495344,
     "type": "SHARES"
   },
   {
     "cusip": "778920306",
     "ticker": null,
     "issuer": "SHARONAI HOLDINGS INC",
-    "value_usd": 18095535,
-    "shares": 796108,
+    "value_usd": 456836112,
+    "shares": 5396127,
     "type": "SHARES"
   },
   {
     "cusip": "83418M103",
     "ticker": null,
     "issuer": "SOLARIS ENERGY INFRAS INC",
-    "value_usd": 62474687,
-    "shares": 1105551,
+    "value_usd": 90889306,
+    "shares": 1129621,
+    "type": "SHARES"
+  },
+  {
+    "cusip": "861012102",
+    "ticker": null,
+    "issuer": "STMICROELECTRONICS",
+    "value_usd": 584344203,
+    "shares": 7802700,
     "type": "SHARES"
   },
   {
     "cusip": "35834F104",
     "ticker": null,
     "issuer": "T1 ENERGY INC",
-    "value_usd": 43900000,
-    "shares": 10000000,
+    "value_usd": 46452000,
+    "shares": 4900000,
     "type": "SHARES"
   },
   {
     "cusip": "874039100",
     "ticker": null,
     "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
-    "value_usd": 7577853,
-    "shares": 22423,
+    "value_usd": 1265099645,
+    "shares": 2649035,
     "type": "SHARES"
   },
   {
     "cusip": "874039100",
     "ticker": null,
     "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
-    "value_usd": 354847500,
-    "shares": 1050000,
+    "value_usd": 23878500,
+    "shares": 50000,
     "type": "CALL"
   },
   {
-    "cusip": "874039100",
+    "cusip": "928298108",
     "ticker": null,
-    "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
-    "value_usd": 535110030,
-    "shares": 1583400,
-    "type": "PUT"
-  },
-  {
-    "cusip": "92189F676",
-    "ticker": null,
-    "issuer": "VANECK ETF TRUST",
-    "value_usd": 2042716860,
-    "shares": 5327900,
-    "type": "PUT"
-  },
-  {
-    "cusip": "92189F676",
-    "ticker": null,
-    "issuer": "VANECK ETF TRUST",
-    "value_usd": 10332630,
-    "shares": 26950,
+    "issuer": "VISHAY INTERTECHNOLOGY INC",
+    "value_usd": 20167500,
+    "shares": 375000,
     "type": "SHARES"
   },
   {
     "cusip": "G96115103",
     "ticker": null,
     "issuer": "WHITEFIBER INC",
-    "value_usd": 20933016,
+    "value_usd": 68282760,
     "shares": 1757600,
     "type": "SHARES"
   }
