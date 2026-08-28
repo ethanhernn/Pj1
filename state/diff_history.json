@@ -1,0 +1,1486 @@
+[
+  {
+    "accession": "0000935836-25-000120",
+    "filing_date": "2025-02-12",
+    "quarter_label": "Q1 2026",
+    "processed_at": "2026-06-17T16:40:23+00:00",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583625000120/0000935836-25-000120-index.htm",
+    "counts": {
+      "NEW": 6,
+      "INCREASED": 0,
+      "DECREASED": 0,
+      "EXITED": 0,
+      "UNCHANGED": 0
+    },
+    "options": {
+      "put_count": 0,
+      "put_notional": 0,
+      "call_count": 0,
+      "call_notional": 0
+    },
+    "entries": [
+      {
+        "ticker": null,
+        "issuer": "MARVELL TECHNOLOGY INC",
+        "cusip": "573874104",
+        "bucket": "NEW",
+        "weight_curr": 34.06,
+        "weight_change": 34.06,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "VISTRA CORP",
+        "cusip": "92840M102",
+        "bucket": "NEW",
+        "weight_curr": 23.18,
+        "weight_change": 23.18,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "VERTIV HOLDINGS CO",
+        "cusip": "92537N108",
+        "bucket": "NEW",
+        "weight_curr": 20.29,
+        "weight_change": 20.29,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "TALEN ENERGY CORP",
+        "cusip": "87422Q109",
+        "bucket": "NEW",
+        "weight_curr": 10.98,
+        "weight_change": 10.98,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "CONSTELLATION ENERGY CORP",
+        "cusip": "21037T109",
+        "bucket": "NEW",
+        "weight_curr": 8.46,
+        "weight_change": 8.46,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "MODINE MFG CO",
+        "cusip": "607828100",
+        "bucket": "NEW",
+        "weight_curr": 3.02,
+        "weight_change": 3.02,
+        "shares_change_pct": 0.0
+      }
+    ],
+    "trade_sheet_text": "# 13F TRADE SHEET \u2014 Q1 2026 (filed 2025-02-12)\n\nAccount BP: $10,000 | Max exposure: $7,000 (70%) | Max names: 6\n\n_No actionable entries passed the rules this quarter._\n\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\n\nDiff summary: 6 NEW, 0 INCREASED, 0 DECREASED, 0 EXITED\n\n---\n\u26a0\ufe0f Sheet is mechanical output of config rules. Entries are estimates. Stagger entries over 1-2 weeks, use limit orders, do not buy day-of-filing spikes. NO auto-execution \u2014 review and trade manually."
+  },
+  {
+    "accession": "0002045724-25-000002",
+    "filing_date": "2025-05-14",
+    "quarter_label": "Q1 2026",
+    "processed_at": "2026-06-17T16:40:24+00:00",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572425000002/0002045724-25-000002-index.htm",
+    "counts": {
+      "NEW": 7,
+      "INCREASED": 4,
+      "DECREASED": 0,
+      "EXITED": 2,
+      "UNCHANGED": 0
+    },
+    "options": {
+      "put_count": 0,
+      "put_notional": 0,
+      "call_count": 1,
+      "call_notional": 459591354
+    },
+    "entries": [
+      {
+        "ticker": null,
+        "issuer": "Broadcom Inc",
+        "cusip": "11135F101",
+        "bucket": "NEW",
+        "weight_curr": 21.47,
+        "weight_change": 21.47,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "Onto Innovation Inc",
+        "cusip": "683344105",
+        "bucket": "NEW",
+        "weight_curr": 13.04,
+        "weight_change": 13.04,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "Vistra Corp",
+        "cusip": "92840M102",
+        "bucket": "INCREASED",
+        "weight_curr": 11.31,
+        "weight_change": -11.87,
+        "shares_change_pct": 22.7
+      },
+      {
+        "ticker": null,
+        "issuer": "Modine Mfg Co",
+        "cusip": "607828100",
+        "bucket": "INCREASED",
+        "weight_curr": 10.08,
+        "weight_change": 7.06,
+        "shares_change_pct": 980.1
+      },
+      {
+        "ticker": null,
+        "issuer": "EQT Corp",
+        "cusip": "26884L109",
+        "bucket": "NEW",
+        "weight_curr": 9.68,
+        "weight_change": 9.68,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "CoreWeave Inc",
+        "cusip": "21873S108",
+        "bucket": "NEW",
+        "weight_curr": 8.32,
+        "weight_change": 8.32,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "Constellation Energy Corp",
+        "cusip": "21037T109",
+        "bucket": "INCREASED",
+        "weight_curr": 6.77,
+        "weight_change": -1.69,
+        "shares_change_pct": 90.2
+      },
+      {
+        "ticker": null,
+        "issuer": "Core Scientific Inc New",
+        "cusip": "21874A106",
+        "bucket": "NEW",
+        "weight_curr": 6.0,
+        "weight_change": 6.0,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "Talen Energy Corp",
+        "cusip": "87422Q109",
+        "bucket": "INCREASED",
+        "weight_curr": 5.43,
+        "weight_change": -5.55,
+        "shares_change_pct": 6.9
+      },
+      {
+        "ticker": null,
+        "issuer": "Applied Digital Corp",
+        "cusip": "038169207",
+        "bucket": "NEW",
+        "weight_curr": 4.15,
+        "weight_change": 4.15,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "IREN Limited",
+        "cusip": "Q4982L109",
+        "bucket": "NEW",
+        "weight_curr": 3.75,
+        "weight_change": 3.75,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "MARVELL TECHNOLOGY INC",
+        "cusip": "573874104",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -34.06,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "VERTIV HOLDINGS CO",
+        "cusip": "92537N108",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -20.29,
+        "shares_change_pct": -100.0
+      }
+    ],
+    "trade_sheet_text": "# 13F TRADE SHEET \u2014 Q1 2026 (filed 2025-05-14)\n\nAccount BP: $10,000 | Max exposure: $7,000 (70%) | Max names: 6\n\n_No actionable entries passed the rules this quarter._\n\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\n\nDiff summary: 7 NEW, 4 INCREASED, 0 DECREASED, 2 EXITED, put book 0 names / $0 notional, call book 1 names / $459,591,354 notional (NOT actionable)\n\n---\n\u26a0\ufe0f Sheet is mechanical output of config rules. Entries are estimates. Stagger entries over 1-2 weeks, use limit orders, do not buy day-of-filing spikes. NO auto-execution \u2014 review and trade manually."
+  },
+  {
+    "accession": "0002045724-25-000006",
+    "filing_date": "2025-08-14",
+    "quarter_label": "Q1 2026",
+    "processed_at": "2026-06-17T16:40:25+00:00",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572425000006/0002045724-25-000006-index.htm",
+    "counts": {
+      "NEW": 0,
+      "INCREASED": 7,
+      "DECREASED": 0,
+      "EXITED": 4,
+      "UNCHANGED": 0
+    },
+    "options": {
+      "put_count": 1,
+      "put_notional": 570058608,
+      "call_count": 1,
+      "call_notional": 453317760
+    },
+    "entries": [
+      {
+        "ticker": null,
+        "issuer": "BROADCOM INC",
+        "cusip": "11135F101",
+        "bucket": "INCREASED",
+        "weight_curr": 29.87,
+        "weight_change": 8.4,
+        "shares_change_pct": 70.2
+      },
+      {
+        "ticker": null,
+        "issuer": "VISTRA CORP",
+        "cusip": "92840M102",
+        "bucket": "INCREASED",
+        "weight_curr": 22.46,
+        "weight_change": 11.15,
+        "shares_change_pct": 142.3
+      },
+      {
+        "ticker": null,
+        "issuer": "CORE SCIENTIFIC INC NEW",
+        "cusip": "21874A106",
+        "bucket": "INCREASED",
+        "weight_curr": 12.41,
+        "weight_change": 6.41,
+        "shares_change_pct": 76.8
+      },
+      {
+        "ticker": null,
+        "issuer": "EQT CORP",
+        "cusip": "26884L109",
+        "bucket": "INCREASED",
+        "weight_curr": 11.38,
+        "weight_change": 1.7,
+        "shares_change_pct": 116.8
+      },
+      {
+        "ticker": null,
+        "issuer": "CONSTELLATION ENERGY CORP",
+        "cusip": "21037T109",
+        "bucket": "INCREASED",
+        "weight_curr": 9.37,
+        "weight_change": 2.6,
+        "shares_change_pct": 74.0
+      },
+      {
+        "ticker": null,
+        "issuer": "IREN LIMITED",
+        "cusip": "Q4982L109",
+        "bucket": "INCREASED",
+        "weight_curr": 8.48,
+        "weight_change": 4.73,
+        "shares_change_pct": 90.1
+      },
+      {
+        "ticker": null,
+        "issuer": "APPLIED DIGITAL CORP",
+        "cusip": "038169207",
+        "bucket": "INCREASED",
+        "weight_curr": 6.04,
+        "weight_change": 1.88,
+        "shares_change_pct": 63.3
+      },
+      {
+        "ticker": null,
+        "issuer": "CoreWeave Inc",
+        "cusip": "21873S108",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -8.32,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "Modine Mfg Co",
+        "cusip": "607828100",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -10.08,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "Onto Innovation Inc",
+        "cusip": "683344105",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -13.04,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "Talen Energy Corp",
+        "cusip": "87422Q109",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -5.43,
+        "shares_change_pct": -100.0
+      }
+    ],
+    "trade_sheet_text": "# 13F TRADE SHEET \u2014 Q1 2026 (filed 2025-08-14)\n\nAccount BP: $10,000 | Max exposure: $7,000 (70%) | Max names: 6\n\n_No actionable entries passed the rules this quarter._\n\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\n\nDiff summary: 0 NEW, 7 INCREASED, 0 DECREASED, 4 EXITED, put book 1 names / $570,058,608 notional, call book 1 names / $453,317,760 notional (NOT actionable)\n\n---\n\u26a0\ufe0f Sheet is mechanical output of config rules. Entries are estimates. Stagger entries over 1-2 weeks, use limit orders, do not buy day-of-filing spikes. NO auto-execution \u2014 review and trade manually."
+  },
+  {
+    "accession": "0002045724-25-000008",
+    "filing_date": "2025-11-14",
+    "quarter_label": "Q1 2026",
+    "processed_at": "2026-06-17T16:40:27+00:00",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572425000008/0002045724-25-000008-index.htm",
+    "counts": {
+      "NEW": 14,
+      "INCREASED": 2,
+      "DECREASED": 2,
+      "EXITED": 2,
+      "UNCHANGED": 1
+    },
+    "options": {
+      "put_count": 6,
+      "put_notional": 887417600,
+      "call_count": 3,
+      "call_notional": 1008034401
+    },
+    "entries": [
+      {
+        "ticker": null,
+        "issuer": "COREWEAVE INC",
+        "cusip": "21873S108",
+        "bucket": "NEW",
+        "weight_curr": 25.11,
+        "weight_change": 25.11,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "CORE SCIENTIFIC INC NEW",
+        "cusip": "21874A106",
+        "bucket": "INCREASED",
+        "weight_curr": 16.14,
+        "weight_change": 3.73,
+        "shares_change_pct": 152.4
+      },
+      {
+        "ticker": null,
+        "issuer": "IREN LIMITED",
+        "cusip": "Q4982L109",
+        "bucket": "INCREASED",
+        "weight_curr": 15.11,
+        "weight_change": 6.63,
+        "shares_change_pct": 12.8
+      },
+      {
+        "ticker": null,
+        "issuer": "VISTRA CORP",
+        "cusip": "92840M102",
+        "bucket": "UNCHANGED",
+        "weight_curr": 11.25,
+        "weight_change": -11.21,
+        "shares_change_pct": 1.1
+      },
+      {
+        "ticker": null,
+        "issuer": "APPLIED DIGITAL CORP",
+        "cusip": "038169207",
+        "bucket": "DECREASED",
+        "weight_curr": 6.2,
+        "weight_change": 0.17,
+        "shares_change_pct": -8.0
+      },
+      {
+        "ticker": null,
+        "issuer": "GALAXY DIGITAL INC.",
+        "cusip": "36317J209",
+        "bucket": "NEW",
+        "weight_curr": 4.13,
+        "weight_change": 4.13,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "CIPHER MINING INC",
+        "cusip": "17253JAA4",
+        "bucket": "NEW",
+        "weight_curr": 3.22,
+        "weight_change": 3.22,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "RIOT PLATFORMS INC",
+        "cusip": "767292105",
+        "bucket": "NEW",
+        "weight_curr": 3.05,
+        "weight_change": 3.05,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "LUMENTUM HLDGS INC",
+        "cusip": "55024UAD1",
+        "bucket": "NEW",
+        "weight_curr": 3.03,
+        "weight_change": 3.03,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "EQT CORP",
+        "cusip": "26884L109",
+        "bucket": "DECREASED",
+        "weight_curr": 2.95,
+        "weight_change": -8.42,
+        "shares_change_pct": -43.3
+      },
+      {
+        "ticker": null,
+        "issuer": "SOLARIS ENERGY INFRAS INC",
+        "cusip": "83418M103",
+        "bucket": "NEW",
+        "weight_curr": 2.05,
+        "weight_change": 2.05,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "BLOOM ENERGY CORP",
+        "cusip": "093712AH0",
+        "bucket": "NEW",
+        "weight_curr": 1.96,
+        "weight_change": 1.96,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "TOWER SEMICONDUCTOR LTD",
+        "cusip": "M87915274",
+        "bucket": "NEW",
+        "weight_curr": 1.52,
+        "weight_change": 1.52,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "HUT 8 CORP",
+        "cusip": "44812J104",
+        "bucket": "NEW",
+        "weight_curr": 0.93,
+        "weight_change": 0.93,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "WESTERN DIGITAL CORP",
+        "cusip": "958102AT2",
+        "bucket": "NEW",
+        "weight_curr": 0.82,
+        "weight_change": 0.82,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "COHERENT CORP",
+        "cusip": "19247G107",
+        "bucket": "NEW",
+        "weight_curr": 0.74,
+        "weight_change": 0.74,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "BITDEER TECHNOLOGIES GROUP",
+        "cusip": "G11448100",
+        "bucket": "NEW",
+        "weight_curr": 0.71,
+        "weight_change": 0.71,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "SANDISK CORP",
+        "cusip": "80004C200",
+        "bucket": "NEW",
+        "weight_curr": 0.58,
+        "weight_change": 0.58,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "SEAGATE TECHNOLOGY HLDNGS PL",
+        "cusip": "G7997R103",
+        "bucket": "NEW",
+        "weight_curr": 0.51,
+        "weight_change": 0.51,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "BROADCOM INC",
+        "cusip": "11135F101",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -29.87,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "CONSTELLATION ENERGY CORP",
+        "cusip": "21037T109",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -9.37,
+        "shares_change_pct": -100.0
+      }
+    ],
+    "trade_sheet_text": "# 13F TRADE SHEET \u2014 Q1 2026 (filed 2025-11-14)\n\nAccount BP: $10,000 | Max exposure: $7,000 (70%) | Max names: 6\n\n_No actionable entries passed the rules this quarter._\n\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\n\nDiff summary: 14 NEW, 2 INCREASED, 2 DECREASED, 2 EXITED, put book 6 names / $887,417,600 notional, call book 3 names / $1,008,034,401 notional (NOT actionable)\n\n---\n\u26a0\ufe0f Sheet is mechanical output of config rules. Entries are estimates. Stagger entries over 1-2 weeks, use limit orders, do not buy day-of-filing spikes. NO auto-execution \u2014 review and trade manually."
+  },
+  {
+    "accession": "0002045724-26-000002",
+    "filing_date": "2026-02-11",
+    "quarter_label": "Q1 2026",
+    "processed_at": "2026-06-17T16:40:28+00:00",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572426000002/0002045724-26-000002-index.htm",
+    "counts": {
+      "NEW": 12,
+      "INCREASED": 12,
+      "DECREASED": 0,
+      "EXITED": 7,
+      "UNCHANGED": 0
+    },
+    "options": {
+      "put_count": 1,
+      "put_notional": 8910000,
+      "call_count": 4,
+      "call_notional": 1594200970
+    },
+    "entries": [
+      {
+        "ticker": null,
+        "issuer": "BLOOM ENERGY CORP",
+        "cusip": "093712107",
+        "bucket": "NEW",
+        "weight_curr": 22.37,
+        "weight_change": 22.37,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "LUMENTUM HLDGS INC",
+        "cusip": "55024U109",
+        "bucket": "NEW",
+        "weight_curr": 12.23,
+        "weight_change": 12.23,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "COREWEAVE INC",
+        "cusip": "21873S108",
+        "bucket": "INCREASED",
+        "weight_curr": 11.16,
+        "weight_change": -13.95,
+        "shares_change_pct": 48.2
+      },
+      {
+        "ticker": null,
+        "issuer": "CORE SCIENTIFIC INC NEW",
+        "cusip": "21874A106",
+        "bucket": "INCREASED",
+        "weight_curr": 10.7,
+        "weight_change": -5.44,
+        "shares_change_pct": 42.5
+      },
+      {
+        "ticker": null,
+        "issuer": "IREN LIMITED",
+        "cusip": "Q4982L109",
+        "bucket": "INCREASED",
+        "weight_curr": 8.4,
+        "weight_change": -6.71,
+        "shares_change_pct": 20.5
+      },
+      {
+        "ticker": null,
+        "issuer": "APPLIED DIGITAL CORP",
+        "cusip": "038169207",
+        "bucket": "INCREASED",
+        "weight_curr": 7.1,
+        "weight_change": 0.9,
+        "shares_change_pct": 87.0
+      },
+      {
+        "ticker": null,
+        "issuer": "SANDISK CORP",
+        "cusip": "80004C200",
+        "bucket": "INCREASED",
+        "weight_curr": 6.39,
+        "weight_change": 5.82,
+        "shares_change_pct": 816.7
+      },
+      {
+        "ticker": null,
+        "issuer": "CIPHER MINING INC",
+        "cusip": "17253J106",
+        "bucket": "NEW",
+        "weight_curr": 3.95,
+        "weight_change": 3.95,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "EQT CORP",
+        "cusip": "26884L109",
+        "bucket": "INCREASED",
+        "weight_curr": 3.4,
+        "weight_change": 0.45,
+        "shares_change_pct": 103.9
+      },
+      {
+        "ticker": null,
+        "issuer": "COHERENT CORP",
+        "cusip": "19247G107",
+        "bucket": "INCREASED",
+        "weight_curr": 2.27,
+        "weight_change": 1.52,
+        "shares_change_pct": 211.1
+      },
+      {
+        "ticker": null,
+        "issuer": "SOLARIS ENERGY INFRAS INC",
+        "cusip": "83418M103",
+        "bucket": "INCREASED",
+        "weight_curr": 2.19,
+        "weight_change": 0.14,
+        "shares_change_pct": 62.3
+      },
+      {
+        "ticker": null,
+        "issuer": "TOWER SEMICONDUCTOR LTD",
+        "cusip": "M87915274",
+        "bucket": "INCREASED",
+        "weight_curr": 2.17,
+        "weight_change": 0.65,
+        "shares_change_pct": 53.6
+      },
+      {
+        "ticker": null,
+        "issuer": "RIOT PLATFORMS INC",
+        "cusip": "767292105",
+        "bucket": "INCREASED",
+        "weight_curr": 2.0,
+        "weight_change": -1.05,
+        "shares_change_pct": 71.7
+      },
+      {
+        "ticker": null,
+        "issuer": "KILROY RLTY CORP",
+        "cusip": "49427F108",
+        "bucket": "NEW",
+        "weight_curr": 1.27,
+        "weight_change": 1.27,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "HUT 8 CORP",
+        "cusip": "44812J104",
+        "bucket": "INCREASED",
+        "weight_curr": 1.01,
+        "weight_change": 0.08,
+        "shares_change_pct": 43.6
+      },
+      {
+        "ticker": null,
+        "issuer": "WHITEFIBER INC",
+        "cusip": "G96115103",
+        "bucket": "NEW",
+        "weight_curr": 0.71,
+        "weight_change": 0.71,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "POWER SOLUTIONS INTL INC",
+        "cusip": "73933G202",
+        "bucket": "NEW",
+        "weight_curr": 0.63,
+        "weight_change": 0.63,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "BITDEER TECHNOLOGIES GROUP",
+        "cusip": "G11448100",
+        "bucket": "INCREASED",
+        "weight_curr": 0.51,
+        "weight_change": -0.2,
+        "shares_change_pct": 92.3
+      },
+      {
+        "ticker": null,
+        "issuer": "CLEANSPARK INC",
+        "cusip": "18452B209",
+        "bucket": "NEW",
+        "weight_curr": 0.42,
+        "weight_change": 0.42,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "BITFARMS LTD",
+        "cusip": "09173B107",
+        "bucket": "NEW",
+        "weight_curr": 0.41,
+        "weight_change": 0.41,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "LIBERTY ENERGY INC",
+        "cusip": "53115L104",
+        "bucket": "NEW",
+        "weight_curr": 0.27,
+        "weight_change": 0.27,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "PROPETRO HLDG CORP",
+        "cusip": "74347M108",
+        "bucket": "NEW",
+        "weight_curr": 0.22,
+        "weight_change": 0.22,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "BABCOCK & WILCOX ENTERPRISES",
+        "cusip": "05614L209",
+        "bucket": "NEW",
+        "weight_curr": 0.22,
+        "weight_change": 0.22,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "INTEL CORP",
+        "cusip": "458140100",
+        "bucket": "NEW",
+        "weight_curr": 0.0,
+        "weight_change": 0.0,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "BLOOM ENERGY CORP",
+        "cusip": "093712AH0",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -1.96,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "CIPHER MINING INC",
+        "cusip": "17253JAA4",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -3.22,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "GALAXY DIGITAL INC.",
+        "cusip": "36317J209",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -4.13,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "LUMENTUM HLDGS INC",
+        "cusip": "55024UAD1",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -3.03,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "SEAGATE TECHNOLOGY HLDNGS PL",
+        "cusip": "G7997R103",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.51,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "VISTRA CORP",
+        "cusip": "92840M102",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -11.25,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "WESTERN DIGITAL CORP",
+        "cusip": "958102AT2",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.82,
+        "shares_change_pct": -100.0
+      }
+    ],
+    "trade_sheet_text": "# 13F TRADE SHEET \u2014 Q1 2026 (filed 2026-02-11)\n\nAccount BP: $10,000 | Max exposure: $7,000 (70%) | Max names: 6\n\n_No actionable entries passed the rules this quarter._\n\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\n\nDiff summary: 12 NEW, 12 INCREASED, 0 DECREASED, 7 EXITED, put book 1 names / $8,910,000 notional, call book 4 names / $1,594,200,970 notional (NOT actionable)\n\n---\n\u26a0\ufe0f Sheet is mechanical output of config rules. Entries are estimates. Stagger entries over 1-2 weeks, use limit orders, do not buy day-of-filing spikes. NO auto-execution \u2014 review and trade manually."
+  },
+  {
+    "accession": "0002045724-26-000008",
+    "filing_date": "2026-05-18",
+    "quarter_label": "Q1 2026",
+    "processed_at": "2026-06-17T16:40:30+00:00",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572426000008/0002045724-26-000008-index.htm",
+    "counts": {
+      "NEW": 10,
+      "INCREASED": 9,
+      "DECREASED": 3,
+      "EXITED": 8,
+      "UNCHANGED": 4
+    },
+    "options": {
+      "put_count": 11,
+      "put_notional": 8459056999,
+      "call_count": 5,
+      "call_notional": 1361829026
+    },
+    "entries": [
+      {
+        "ticker": null,
+        "issuer": "BLOOM ENERGY CORP",
+        "cusip": "093712107",
+        "bucket": "DECREASED",
+        "weight_curr": 22.79,
+        "weight_change": 0.42,
+        "shares_change_pct": -35.6
+      },
+      {
+        "ticker": null,
+        "issuer": "SANDISK CORP",
+        "cusip": "80004C200",
+        "bucket": "INCREASED",
+        "weight_curr": 18.79,
+        "weight_change": 12.39,
+        "shares_change_pct": 8.2
+      },
+      {
+        "ticker": null,
+        "issuer": "COREWEAVE INC",
+        "cusip": "21873S108",
+        "bucket": "INCREASED",
+        "weight_curr": 14.42,
+        "weight_change": 3.26,
+        "shares_change_pct": 17.7
+      },
+      {
+        "ticker": null,
+        "issuer": "IREN LIMITED",
+        "cusip": "Q4982L109",
+        "bucket": "INCREASED",
+        "weight_curr": 10.4,
+        "weight_change": 2.0,
+        "shares_change_pct": 34.5
+      },
+      {
+        "ticker": null,
+        "issuer": "CORE SCIENTIFIC INC NEW",
+        "cusip": "21874A106",
+        "bucket": "DECREASED",
+        "weight_curr": 10.09,
+        "weight_change": -0.61,
+        "shares_change_pct": -9.6
+      },
+      {
+        "ticker": null,
+        "issuer": "APPLIED DIGITAL CORP",
+        "cusip": "038169207",
+        "bucket": "INCREASED",
+        "weight_curr": 8.3,
+        "weight_change": 1.19,
+        "shares_change_pct": 18.9
+      },
+      {
+        "ticker": null,
+        "issuer": "RIOT PLATFORMS INC",
+        "cusip": "767292105",
+        "bucket": "INCREASED",
+        "weight_curr": 3.69,
+        "weight_change": 1.69,
+        "shares_change_pct": 86.5
+      },
+      {
+        "ticker": null,
+        "issuer": "CLEANSPARK INC",
+        "cusip": "18452B209",
+        "bucket": "INCREASED",
+        "weight_curr": 2.71,
+        "weight_change": 2.29,
+        "shares_change_pct": 648.4
+      },
+      {
+        "ticker": null,
+        "issuer": "SOLARIS ENERGY INFRAS INC",
+        "cusip": "83418M103",
+        "bucket": "DECREASED",
+        "weight_curr": 1.62,
+        "weight_change": -0.57,
+        "shares_change_pct": -40.8
+      },
+      {
+        "ticker": null,
+        "issuer": "T1 ENERGY INC",
+        "cusip": "35834F104",
+        "bucket": "NEW",
+        "weight_curr": 1.14,
+        "weight_change": 1.14,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "BITFARMS LTD",
+        "cusip": "09173B107",
+        "bucket": "INCREASED",
+        "weight_curr": 1.01,
+        "weight_change": 0.59,
+        "shares_change_pct": 188.2
+      },
+      {
+        "ticker": null,
+        "issuer": "BITDEER TECHNOLOGIES GROUP",
+        "cusip": "G11448100",
+        "bucket": "INCREASED",
+        "weight_curr": 0.77,
+        "weight_change": 0.26,
+        "shares_change_pct": 92.4
+      },
+      {
+        "ticker": null,
+        "issuer": "POWER SOLUTIONS INTL INC",
+        "cusip": "73933G202",
+        "bucket": "UNCHANGED",
+        "weight_curr": 0.68,
+        "weight_change": 0.05,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "WHITEFIBER INC",
+        "cusip": "G96115103",
+        "bucket": "UNCHANGED",
+        "weight_curr": 0.54,
+        "weight_change": -0.17,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "cusip": "007903107",
+        "bucket": "NEW",
+        "weight_curr": 0.52,
+        "weight_change": 0.52,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "BABCOCK & WILCOX ENTERPRISES",
+        "cusip": "05614L209",
+        "bucket": "UNCHANGED",
+        "weight_curr": 0.52,
+        "weight_change": 0.3,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "SHARONAI HOLDINGS INC",
+        "cusip": "778920306",
+        "bucket": "NEW",
+        "weight_curr": 0.47,
+        "weight_change": 0.47,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "PROPETRO HLDG CORP",
+        "cusip": "74347M108",
+        "bucket": "UNCHANGED",
+        "weight_curr": 0.34,
+        "weight_change": 0.12,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "VANECK ETF TRUST",
+        "cusip": "92189F676",
+        "bucket": "NEW",
+        "weight_curr": 0.27,
+        "weight_change": 0.27,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "INTEL CORP",
+        "cusip": "458140100",
+        "bucket": "INCREASED",
+        "weight_curr": 0.23,
+        "weight_change": 0.23,
+        "shares_change_pct": 20234300.0
+      },
+      {
+        "ticker": null,
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+        "cusip": "874039100",
+        "bucket": "NEW",
+        "weight_curr": 0.2,
+        "weight_change": 0.2,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "HIVE DIGITAL TECHNOLOGIES LT",
+        "cusip": "433921103",
+        "bucket": "NEW",
+        "weight_curr": 0.17,
+        "weight_change": 0.17,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "ASML HLDG NV N Y REGISTRY",
+        "cusip": "N07059210",
+        "bucket": "NEW",
+        "weight_curr": 0.16,
+        "weight_change": 0.16,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "MICRON TECHNOLOGY INC",
+        "cusip": "595112103",
+        "bucket": "NEW",
+        "weight_curr": 0.15,
+        "weight_change": 0.15,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "CORNING INC",
+        "cusip": "219350105",
+        "bucket": "NEW",
+        "weight_curr": 0.02,
+        "weight_change": 0.02,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "NVIDIA CORPORATION",
+        "cusip": "67066G104",
+        "bucket": "NEW",
+        "weight_curr": 0.01,
+        "weight_change": 0.01,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "CIPHER MINING INC",
+        "cusip": "17253J106",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -3.95,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "COHERENT CORP",
+        "cusip": "19247G107",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -2.27,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "EQT CORP",
+        "cusip": "26884L109",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -3.4,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "HUT 8 CORP",
+        "cusip": "44812J104",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -1.01,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "KILROY RLTY CORP",
+        "cusip": "49427F108",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -1.27,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "LIBERTY ENERGY INC",
+        "cusip": "53115L104",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.27,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "LUMENTUM HLDGS INC",
+        "cusip": "55024U109",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -12.23,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "TOWER SEMICONDUCTOR LTD",
+        "cusip": "M87915274",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -2.17,
+        "shares_change_pct": -100.0
+      }
+    ],
+    "trade_sheet_text": "# 13F TRADE SHEET \u2014 Q1 2026 (filed 2026-05-18)\n\nAccount BP: $10,000 | Max exposure: $7,000 (70%) | Max names: 6\n\n_No actionable entries passed the rules this quarter._\n\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\n\nDiff summary: 10 NEW, 9 INCREASED, 3 DECREASED, 8 EXITED, put book 11 names / $8,459,056,999 notional, call book 5 names / $1,361,829,026 notional (NOT actionable)\n\n---\n\u26a0\ufe0f Sheet is mechanical output of config rules. Entries are estimates. Stagger entries over 1-2 weeks, use limit orders, do not buy day-of-filing spikes. NO auto-execution \u2014 review and trade manually."
+  },
+  {
+    "accession": "0000935836-26-000418",
+    "filing_date": "2026-08-14",
+    "quarter_label": "Q2 2026",
+    "processed_at": "2026-08-14T20:37:38+00:00",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000418/0000935836-26-000418-index.htm",
+    "counts": {
+      "NEW": 5,
+      "INCREASED": 9,
+      "DECREASED": 2,
+      "EXITED": 8,
+      "UNCHANGED": 7
+    },
+    "options": {
+      "put_count": 1,
+      "put_notional": 5245000,
+      "call_count": 2,
+      "call_notional": 68012160
+    },
+    "entries": [
+      {
+        "ticker": null,
+        "issuer": "SANDISK CORP",
+        "cusip": "80004C200",
+        "bucket": "INCREASED",
+        "weight_curr": 28.13,
+        "weight_change": 9.34,
+        "shares_change_pct": 118.9
+      },
+      {
+        "ticker": null,
+        "issuer": "MICRON TECHNOLOGY INC",
+        "cusip": "595112103",
+        "bucket": "INCREASED",
+        "weight_curr": 27.64,
+        "weight_change": 27.48,
+        "shares_change_pct": 27712.4
+      },
+      {
+        "ticker": null,
+        "issuer": "BLOOM ENERGY CORP",
+        "cusip": "093712107",
+        "bucket": "UNCHANGED",
+        "weight_curr": 9.41,
+        "weight_change": -13.38,
+        "shares_change_pct": -3.3
+      },
+      {
+        "ticker": null,
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+        "cusip": "874039100",
+        "bucket": "INCREASED",
+        "weight_curr": 6.27,
+        "weight_change": 6.08,
+        "shares_change_pct": 11713.9
+      },
+      {
+        "ticker": null,
+        "issuer": "NEBIUS GROUP N.V.",
+        "cusip": "N97284108",
+        "bucket": "NEW",
+        "weight_curr": 6.11,
+        "weight_change": 6.11,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "COREWEAVE INC",
+        "cusip": "21873S108",
+        "bucket": "UNCHANGED",
+        "weight_curr": 3.69,
+        "weight_change": -10.73,
+        "shares_change_pct": 4.2
+      },
+      {
+        "ticker": null,
+        "issuer": "CORE SCIENTIFIC INC NEW",
+        "cusip": "21874A106",
+        "bucket": "UNCHANGED",
+        "weight_curr": 3.3,
+        "weight_change": -6.79,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "STMICROELECTRONICS",
+        "cusip": "861012102",
+        "bucket": "NEW",
+        "weight_curr": 2.9,
+        "weight_change": 2.9,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "APPLIED DIGITAL CORP",
+        "cusip": "038169207",
+        "bucket": "INCREASED",
+        "weight_curr": 2.33,
+        "weight_change": -5.97,
+        "shares_change_pct": 14.1
+      },
+      {
+        "ticker": null,
+        "issuer": "RIOT PLATFORMS INC",
+        "cusip": "767292105",
+        "bucket": "INCREASED",
+        "weight_curr": 2.32,
+        "weight_change": -1.37,
+        "shares_change_pct": 48.7
+      },
+      {
+        "ticker": null,
+        "issuer": "SHARONAI HOLDINGS INC",
+        "cusip": "778920306",
+        "bucket": "INCREASED",
+        "weight_curr": 2.27,
+        "weight_change": 1.8,
+        "shares_change_pct": 577.8
+      },
+      {
+        "ticker": null,
+        "issuer": "IREN LIMITED",
+        "cusip": "Q4982L109",
+        "bucket": "DECREASED",
+        "weight_curr": 2.15,
+        "weight_change": -8.25,
+        "shares_change_pct": -19.0
+      },
+      {
+        "ticker": null,
+        "issuer": "CLEANSPARK INC",
+        "cusip": "18452B209",
+        "bucket": "UNCHANGED",
+        "weight_curr": 0.89,
+        "weight_change": -1.82,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "KEEL INFRASTRUCTURE CORP",
+        "cusip": "486917107",
+        "bucket": "NEW",
+        "weight_curr": 0.75,
+        "weight_change": 0.75,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "SOLARIS ENERGY INFRAS INC",
+        "cusip": "83418M103",
+        "bucket": "UNCHANGED",
+        "weight_curr": 0.45,
+        "weight_change": -1.17,
+        "shares_change_pct": 2.2
+      },
+      {
+        "ticker": null,
+        "issuer": "WHITEFIBER INC",
+        "cusip": "G96115103",
+        "bucket": "UNCHANGED",
+        "weight_curr": 0.34,
+        "weight_change": -0.2,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "BITDEER TECHNOLOGIES GROUP",
+        "cusip": "G11448100",
+        "bucket": "UNCHANGED",
+        "weight_curr": 0.27,
+        "weight_change": -0.5,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "T1 ENERGY INC",
+        "cusip": "35834F104",
+        "bucket": "DECREASED",
+        "weight_curr": 0.23,
+        "weight_change": -0.91,
+        "shares_change_pct": -51.0
+      },
+      {
+        "ticker": null,
+        "issuer": "HIVE DIGITAL TECHNOLOGIES LT",
+        "cusip": "433921103",
+        "bucket": "INCREASED",
+        "weight_curr": 0.16,
+        "weight_change": -0.0,
+        "shares_change_pct": 169.3
+      },
+      {
+        "ticker": null,
+        "issuer": "BABCOCK & WILCOX ENTERPRISES",
+        "cusip": "05614L209",
+        "bucket": "INCREASED",
+        "weight_curr": 0.14,
+        "weight_change": -0.37,
+        "shares_change_pct": 49.7
+      },
+      {
+        "ticker": null,
+        "issuer": "PROPETRO HLDG CORP",
+        "cusip": "74347M108",
+        "bucket": "INCREASED",
+        "weight_curr": 0.14,
+        "weight_change": -0.2,
+        "shares_change_pct": 115.4
+      },
+      {
+        "ticker": null,
+        "issuer": "VISHAY INTERTECHNOLOGY INC",
+        "cusip": "928298108",
+        "bucket": "NEW",
+        "weight_curr": 0.1,
+        "weight_change": 0.1,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "CEREBRAS SYSTEMS INC",
+        "cusip": "15675D103",
+        "bucket": "NEW",
+        "weight_curr": 0.01,
+        "weight_change": 0.01,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "ADVANCED MICRO DEVICES INC",
+        "cusip": "007903107",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.52,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "ASML HLDG NV N Y REGISTRY",
+        "cusip": "N07059210",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.16,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "BITFARMS LTD",
+        "cusip": "09173B107",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -1.01,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "CORNING INC",
+        "cusip": "219350105",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.02,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "INTEL CORP",
+        "cusip": "458140100",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.23,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "NVIDIA CORPORATION",
+        "cusip": "67066G104",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.01,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "POWER SOLUTIONS INTL INC",
+        "cusip": "73933G202",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.68,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "VANECK ETF TRUST",
+        "cusip": "92189F676",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.27,
+        "shares_change_pct": -100.0
+      }
+    ],
+    "trade_sheet_text": "# 13F TRADE SHEET \u2014 Q2 2026 (filed 2026-08-14)\n\nAccount BP: $10,000 | Max exposure: $7,000 (70%) | Max names: 6\n\n_No actionable entries passed the rules this quarter._\n\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\n\nDiff summary: 5 NEW, 9 INCREASED, 2 DECREASED, 8 EXITED, put book 1 names / $5,245,000 notional, call book 2 names / $68,012,160 notional (NOT actionable)\n\n---\n\u26a0\ufe0f Sheet is mechanical output of config rules. Entries are estimates. Stagger entries over 1-2 weeks, use limit orders, do not buy day-of-filing spikes. NO auto-execution \u2014 review and trade manually."
+  }
+]
