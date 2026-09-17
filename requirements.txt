@@ -1,0 +1,6 @@
+# Pinned deliberately. yfinance in particular breaks often across minor versions.
+requests==2.33.1
+lxml==5.3.0
+PyYAML==6.0.1
+yfinance==0.2.51
+pytest==8.3.4
