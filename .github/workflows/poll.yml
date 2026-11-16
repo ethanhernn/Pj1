@@ -61,7 +61,24 @@ jobs:
           git add state/ output/ docs/
           if git diff --cached --quiet; then
             echo "No state changes to commit."
-          else
-            git commit -m "chore: update EDGAR monitor state [skip ci]"
-            git push
+            exit 0
           fi
+          git commit -m "chore: update EDGAR monitor state [skip ci]"
+          branch="${GITHUB_REF_NAME}"
+          # Concurrent poll runs (especially the deadline-week 5-minute cadence) can
+          # push to this branch between our checkout and our push, which rejects the
+          # push as non-fast-forward. On rejection, rebase our state commit onto the
+          # latest remote and retry. `-X theirs` lets our run's regenerated state win
+          # file-level conflicts while keeping the other run's distinct output files.
+          for attempt in 1 2 3 4 5; do
+            if git push origin "HEAD:${branch}"; then
+              echo "Pushed on attempt ${attempt}."
+              exit 0
+            fi
+            echo "Push rejected (attempt ${attempt}); rebasing onto latest ${branch}."
+            git fetch origin "${branch}"
+            git rebase -X theirs "origin/${branch}" || { git rebase --abort || true; sleep 3; continue; }
+            sleep $(( (RANDOM % 4) + attempt ))
+          done
+          echo "::error::Failed to push updated state after multiple attempts."
+          exit 1
