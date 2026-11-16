@@ -1,0 +1,74 @@
+[
+  {
+    "cusip": "G11448100",
+    "ticker": null,
+    "issuer": "BITDEER TECHNOLOGIES GROUP",
+    "value_usd": 20294143,
+    "shares": 1934618,
+    "type": "SHARES"
+  },
+  {
+    "cusip": "093712107",
+    "ticker": null,
+    "issuer": "BLOOM ENERGY CORP",
+    "value_usd": 389156900,
+    "shares": 1405000,
+    "type": "CALL"
+  },
+  {
+    "cusip": "18452B209",
+    "ticker": null,
+    "issuer": "CLEANSPARK INC",
+    "value_usd": 38885094,
+    "shares": 3019029,
+    "type": "SHARES"
+  },
+  {
+    "cusip": "314911108",
+    "ticker": null,
+    "issuer": "FERMI INC",
+    "value_usd": 11248691,
+    "shares": 2671898,
+    "type": "SHARES"
+  },
+  {
+    "cusip": "Q4982L109",
+    "ticker": null,
+    "issuer": "IREN LIMITED",
+    "value_usd": 21579080,
+    "shares": 527864,
+    "type": "SHARES"
+  },
+  {
+    "cusip": "N97284108",
+    "ticker": null,
+    "issuer": "NEBIUS GROUP N.V.",
+    "value_usd": 332590800,
+    "shares": 1410000,
+    "type": "CALL"
+  },
+  {
+    "cusip": "77926X320",
+    "ticker": null,
+    "issuer": "ROUNDHILL ETF TRUST",
+    "value_usd": 140337000,
+    "shares": 2325000,
+    "type": "CALL"
+  },
+  {
+    "cusip": "80004C200",
+    "ticker": null,
+    "issuer": "SANDISK CORP",
+    "value_usd": 182688450,
+    "shares": 105000,
+    "type": "CALL"
+  },
+  {
+    "cusip": "778920306",
+    "ticker": null,
+    "issuer": "SHARONAI HOLDINGS INC",
+    "value_usd": 440673870,
+    "shares": 8070950,
+    "type": "SHARES"
+  }
+]
