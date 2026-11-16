@@ -1482,5 +1482,244 @@
       }
     ],
     "trade_sheet_text": "# 13F TRADE SHEET \u2014 Q2 2026 (filed 2026-08-14)\n\nAccount BP: $10,000 | Max exposure: $7,000 (70%) | Max names: 6\n\n_No actionable entries passed the rules this quarter._\n\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\n\nDiff summary: 5 NEW, 9 INCREASED, 2 DECREASED, 8 EXITED, put book 1 names / $5,245,000 notional, call book 2 names / $68,012,160 notional (NOT actionable)\n\n---\n\u26a0\ufe0f Sheet is mechanical output of config rules. Entries are estimates. Stagger entries over 1-2 weeks, use limit orders, do not buy day-of-filing spikes. NO auto-execution \u2014 review and trade manually."
+  },
+  {
+    "accession": "0000935836-26-000610",
+    "filing_date": "2026-11-16",
+    "quarter_label": "Q3 2026",
+    "processed_at": "2026-11-16T22:46:13+00:00",
+    "index_url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000610/0000935836-26-000610-index.htm",
+    "counts": {
+      "NEW": 1,
+      "INCREASED": 1,
+      "DECREASED": 3,
+      "EXITED": 19,
+      "UNCHANGED": 0
+    },
+    "options": {
+      "put_count": 0,
+      "put_notional": 0,
+      "call_count": 4,
+      "call_notional": 1044773150
+    },
+    "entries": [
+      {
+        "ticker": null,
+        "issuer": "SHARONAI HOLDINGS INC",
+        "cusip": "778920306",
+        "bucket": "INCREASED",
+        "weight_curr": 82.73,
+        "weight_change": 80.46,
+        "shares_change_pct": 49.6
+      },
+      {
+        "ticker": null,
+        "issuer": "CLEANSPARK INC",
+        "cusip": "18452B209",
+        "bucket": "DECREASED",
+        "weight_curr": 7.3,
+        "weight_change": 6.41,
+        "shares_change_pct": -75.4
+      },
+      {
+        "ticker": null,
+        "issuer": "IREN LIMITED",
+        "cusip": "Q4982L109",
+        "bucket": "DECREASED",
+        "weight_curr": 4.05,
+        "weight_change": 1.9,
+        "shares_change_pct": -94.4
+      },
+      {
+        "ticker": null,
+        "issuer": "BITDEER TECHNOLOGIES GROUP",
+        "cusip": "G11448100",
+        "bucket": "DECREASED",
+        "weight_curr": 3.81,
+        "weight_change": 3.54,
+        "shares_change_pct": -43.8
+      },
+      {
+        "ticker": null,
+        "issuer": "FERMI INC",
+        "cusip": "314911108",
+        "bucket": "NEW",
+        "weight_curr": 2.11,
+        "weight_change": 2.11,
+        "shares_change_pct": 0.0
+      },
+      {
+        "ticker": null,
+        "issuer": "APPLIED DIGITAL CORP",
+        "cusip": "038169207",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -2.33,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "BABCOCK & WILCOX ENTERPRISES",
+        "cusip": "05614L209",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.14,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "BLOOM ENERGY CORP",
+        "cusip": "093712107",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -9.41,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "CEREBRAS SYSTEMS INC",
+        "cusip": "15675D103",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.01,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "CORE SCIENTIFIC INC NEW",
+        "cusip": "21874A106",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -3.3,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "COREWEAVE INC",
+        "cusip": "21873S108",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -3.69,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "HIVE DIGITAL TECHNOLOGIES LT",
+        "cusip": "433921103",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.16,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "KEEL INFRASTRUCTURE CORP",
+        "cusip": "486917107",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.75,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "MICRON TECHNOLOGY INC",
+        "cusip": "595112103",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -27.64,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "NEBIUS GROUP N.V.",
+        "cusip": "N97284108",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -6.11,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "PROPETRO HLDG CORP",
+        "cusip": "74347M108",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.14,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "RIOT PLATFORMS INC",
+        "cusip": "767292105",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -2.32,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "SANDISK CORP",
+        "cusip": "80004C200",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -28.13,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "SOLARIS ENERGY INFRAS INC",
+        "cusip": "83418M103",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.45,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "STMICROELECTRONICS",
+        "cusip": "861012102",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -2.9,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "T1 ENERGY INC",
+        "cusip": "35834F104",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.23,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "TAIWAN SEMICONDUCTOR MANUFAC",
+        "cusip": "874039100",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -6.27,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "VISHAY INTERTECHNOLOGY INC",
+        "cusip": "928298108",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.1,
+        "shares_change_pct": -100.0
+      },
+      {
+        "ticker": null,
+        "issuer": "WHITEFIBER INC",
+        "cusip": "G96115103",
+        "bucket": "EXITED",
+        "weight_curr": 0.0,
+        "weight_change": -0.34,
+        "shares_change_pct": -100.0
+      }
+    ],
+    "trade_sheet_text": "# 13F TRADE SHEET \u2014 Q3 2026 (filed 2026-11-16)\n\nAccount BP: $10,000 | Max exposure: $7,000 (70%) | Max names: 6\n\n_No actionable entries passed the rules this quarter._\n\nDropped: ? (no ticker mapping)\nDropped: ? (no ticker mapping)\n\nDiff summary: 1 NEW, 1 INCREASED, 3 DECREASED, 19 EXITED, put book 0 names / $0 notional, call book 4 names / $1,044,773,150 notional (NOT actionable)\n\n---\n\u26a0\ufe0f Sheet is mechanical output of config rules. Entries are estimates. Stagger entries over 1-2 weeks, use limit orders, do not buy day-of-filing spikes. NO auto-execution \u2014 review and trade manually."
   }
 ]
